@@ -180,8 +180,8 @@ export default function Home() {
                 3 Simple Steps
               </h2>
               <ProgressStep number={1} title="Enter Basic Info" isActive={false} isCompleted={false} />
-              <ProgressStep number={2} title="Complete 3-5 Recommended Deals" isActive={false} isCompleted={false} />
-              <ProgressStep number={3} title="Receive Your $750" isActive={false} isCompleted={false} />
+              <ProgressStep number={2} title="Complete 3-5 Deals" isActive={false} isCompleted={false} />
+              <ProgressStep number={3} title="Receive Your $750!" isActive={false} isCompleted={false} />
             </CardContent>
           </Card>
 
