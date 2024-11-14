@@ -78,7 +78,7 @@ const AffiliateButton = () => (
       animate={{ scale: [1, 1.02, 1], opacity: [0.5, 0.7, 0.5] }}
       transition={{ duration: 2, repeat: Infinity, repeatType: "reverse" }}
     />
-    <a href="https://glstrck.com/aff_c?offer_id=74&aff_id=11848" target="_blank" rel="noopener noreferrer">
+    <a href="https://glstrck.com/aff_c?offer_id=1145&aff_id=11848&source=turniprun" target="_blank" rel="noopener noreferrer">
       <Button className="relative z-10 bg-gradient-to-r from-green-400 to-green-600 text-white font-semibold py-5 px-14 rounded-full text-lg flex items-center gap-2 shadow-lg hover:from-green-500 hover:to-green-700"> {/* Adjusted py-4 to py-3 */}
         Claim Cash Now
         <ExternalLink className="w-6 h-6" />
@@ -130,7 +130,7 @@ const RecentWinner = () => {
           transition={{ duration: 0.5, ease: 'easeInOut' }}
           className="fixed top-4 inset-x-0 mx-auto max-w-xs text-white"
         >
-          <Alert className="w-full max-w-xs bg-gray-800 shadow-md text-sm sm:text-base p-4 rounded-lg backdrop-blur">
+          <Alert className="w-full max-w-xs bg-gray-800 shadow-md text-sm sm:text-base p-4 rounded-lg backdrop-blur text-white">
             <div className="flex items-center gap-3">
               <DollarSign className="w-6 h-6 text-green-400" />
               <AlertDescription className="font-medium">
@@ -180,7 +180,7 @@ export default function Home() {
                 3 Simple Steps
               </h2>
               <ProgressStep number={1} title="Enter Basic Info" isActive={false} isCompleted={false} />
-              <ProgressStep number={2} title="Complete 3-5 Deals" isActive={false} isCompleted={false} />
+              <ProgressStep number={2} title="Complete 3-5 Fun Deals" isActive={false} isCompleted={false} />
               <ProgressStep number={3} title="Receive Your $750" isActive={false} isCompleted={false} />
             </CardContent>
           </Card>
