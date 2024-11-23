@@ -134,7 +134,7 @@ const RecentWinner = () => {
             <div className="flex items-center gap-3">
               <DollarSign className="w-6 h-6 text-green-400" />
               <AlertDescription className="font-medium">
-                <span className="text-green-400 font-semibold">{currentName}</span> just received $7500! 💸
+                <span className="text-green-400 font-semibold">{currentName}</span> just received $750! 💸
               </AlertDescription>
             </div>
           </Alert>
