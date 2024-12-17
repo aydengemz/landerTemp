@@ -10,7 +10,7 @@ export default function LandingPage() {
 
   return (
     <div
-      className="w-full min-h-screen relative flex items-center justify-center cursor-pointer pt-16 md:pt-24"
+      className="w-screen min-h-screen relative flex items-center justify-center cursor-pointer"
       onClick={handleClick}
     >
       {/* Gradient Background */}
@@ -29,7 +29,7 @@ export default function LandingPage() {
         <img
           src="/bg3.png"
           alt="Background"
-          className="w-full h-full object-contain md:object-cover object-top"
+          className="w-full h-full object-cover"
         />
       </div>
 
