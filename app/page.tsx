@@ -25,23 +25,12 @@ export default function LandingPage() {
 
   return (
     <div
-      className="relative w-screen cursor-pointer bg-black"
+      className="relative w-screen cursor-pointer bg-white"
       style={{ height: viewportHeight }}
       onClick={handleClick}
     >
       {/* Safe Area Padding for Mobile */}
       <div className="absolute inset-0 px-safe py-safe">
-        {/* Gradient Background */}
-        <div className="absolute inset-0">
-          <div 
-            className="absolute inset-0"
-            style={{
-              background: "linear-gradient(45deg, rgba(76, 0, 255, 0.15), rgba(255, 0, 128, 0.15))"
-            }}
-          />
-          <div className="absolute inset-0 backdrop-blur-2xl bg-black bg-opacity-30" />
-        </div>
-
         {/* Background Image Container */}
         <div className="absolute inset-0 flex items-center justify-center">
           <img
