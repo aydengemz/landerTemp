@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 export default function LandingPage() {
-  const redirectLink = "https://t.afftrackr.com/?yte=ctpq4NGRdY9H9EqNoDVAUY5bKl3pvaM5vQJDRoz7h5U%3d&s3=nocard";
+  const redirectLink = "https://glstrck.com/aff_c?offer_id=446&aff_id=11848&source=nests";
   const [viewportHeight, setViewportHeight] = useState("100vh");
 
   // Handle mobile viewport height issues
